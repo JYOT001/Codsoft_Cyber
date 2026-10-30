@@ -1,0 +1,5 @@
+Flask==3.0.0
+cryptography==41.0.5
+itsdangerous==2.1.2
+requests==2.31.0
+werkzeug==3.0.0
