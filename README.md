@@ -49,7 +49,7 @@ Before running any of the scripts, ensure you have the following installed:
 Download the complete portfolio to your local machine:
 
 ```bash
-git clone [https://github.com/](https://github.com/)[JYOT001]/Codsoft_Cyber.git
+git clone https://github.com/JYOT001/Codsoft_Cyber.git
 cd Codsoft_Cyber
 ```
 </details>
