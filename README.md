@@ -49,7 +49,7 @@ Before running any of the scripts, ensure you have the following installed:
 Download the complete portfolio to your local machine:
 
 ```bash
-git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/Codsoft_Cyber.git
+git clone [https://github.com/](https://github.com/)[JYOT001]/Codsoft_Cyber.git
 cd Codsoft_Cyber
 ```
 </details>
@@ -76,6 +76,6 @@ Throughout this internship, I successfully transitioned theoretical cybersecurit
 ---
 <div align="center">
   <i>If you are a recruiter or hiring manager, I would love to connect!</i><br><br>
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /></a>
-  <a href="mailto:YOUR-EMAIL@email.com"><img src="https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail" /></a>
+  <a href="https://linkedin.com/in/jyot-joshi-b0955a247"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /></a>
+  <a href="mailto:jyotjoshi001@email.com"><img src="https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail" /></a>
 </div>
