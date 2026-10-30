@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Training Program</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e74c3c;
+            --accent: #3498db;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-main: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .module {
+            background: var(--card-bg);
+            margin-bottom: 24px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--accent);
+        }
+
+        .module h2 {
+            color: var(--primary);
+            margin-top: 0;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 5px solid var(--secondary);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .slam-method {
+            background-color: #e8f6f3;
+            border-left: 5px solid #1abc9c;
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .slam-method ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .slam-method li {
+            margin-bottom: 10px;
+        }
+
+        .slam-method strong {
+            color: #16a085;
+            font-size: 1.1em;
+        }
+
+        ul.styled-list {
+            padding-left: 20px;
+        }
+
+        ul.styled-list li {
+            margin-bottom: 12px;
+        }
+
+        .quiz-question {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .quiz-question p {
+            font-weight: 600;
+            margin-top: 0;
+        }
+
+        details {
+            background-color: #f1f2f6;
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        details summary {
+            font-weight: bold;
+            color: var(--accent);
+        }
+
+        details p {
+            margin: 10px 0 0 0;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🎣 Phishing Awareness Program</h1>
+        <p>Defending the Human Firewall</p>
+    </header>
+
+    <div class="module">
+        <h2>📖 Module 1: Identifying the Bait (Spotting Fakes)</h2>
+        <p>Cybercriminals go to great lengths to make malicious communications look legitimate. Here is how to spot the cracks in their disguise:</p>
+        
+        <ul class="styled-list">
+            <li><strong>Display Name Spoofing:</strong> The sender's name might say "IT Support," but hovering over the name reveals an address like <code>support@gmail-alerts.com</code> instead of your company's domain.</li>
+            <li><strong>Generic Greetings:</strong> Legitimate organizations usually address you by name. Be wary of "Dear Customer" or "Dear User."</li>
+            <li><strong>Unexpected Attachments:</strong> Invoices or shipping documents you didn't request—especially <code>.zip</code>, <code>.exe</code>, or <code>.docm</code> files—are major red flags.</li>
+            <li><strong>Check the URL:</strong> Look closely at the domain. Hackers use typosquatting (e.g., <code>www.micros0ft.com</code>).</li>
+            <li><strong>SSL is Not a Guarantee:</strong> A padlock icon (HTTPS) only means the connection is encrypted; scammers secure their fake sites, too.</li>
+        </ul>
+    </div>
+
+    <div class="module">
+        <h2>🧠 Module 2: The Psychology of a Hack</h2>
+        <p>Social engineering is the art of manipulating people so they give up confidential information. Attackers rely on human emotions:</p>
+        
+        <ul class="styled-list">
+            <li><strong>Urgency & Fear:</strong> "Your account will be suspended in 24 hours if you do not verify your details."</li>
+            <li><strong>Authority:</strong> An email appearing to be from the CEO demanding an urgent wire transfer (Business Email Compromise).</li>
+            <li><strong>Familiarity & Trust:</strong> Spoofing the identity of a known vendor you frequently do business with.</li>
+            <li><strong>Curiosity:</strong> Sending an email titled "Q3 Salary Adjustments.xlsx" to tempt clicks.</li>
+        </ul>
+    </div>
+
+    <div class="module">
+        <h2>📂 Module 3: Real-World Case Studies</h2>
+        
+        <div class="highlight-box">
+            <strong>Case Study 1: Google & Facebook ($100 Million Loss)</strong>
+            <p>Between 2013 and 2015, a hacker set up a fake company impersonating an Asian hardware vendor. He sent forged invoices and phishing emails. Because the name was familiar, employees bypassed verification, wiring over $100 million to offshore accounts.</p>
+        </div>
+
+        <div class="highlight-box">
+            <strong>Case Study 2: Ubiquiti Networks ($46.7 Million Loss)</strong>
+            <p>In 2015, attackers impersonated executives and instructed the finance department to make urgent, secretive wire transfers. The employees, pressured by "authority," complied without verifying over the phone.</p>
+        </div>
+    </div>
+
+    <div class="module">
+        <h2>🛡️ Module 4: Practical Defense</h2>
+        <p>To protect yourself and your organization, adopt the <strong>S.L.A.M.</strong> verification method:</p>
+        
+        <div class="slam-method">
+            <ul>
+                <li><strong>S - Sender:</strong> Always check the actual email address, not just the display name.</li>
+                <li><strong>L - Links:</strong> Hover over links <em>without clicking</em> to preview the destination URL.</li>
+                <li><strong>A - Attachments:</strong> Never open unexpected attachments.</li>
+                <li><strong>M - Message:</strong> Look for typos, poor grammar, and urgent language.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="module">
+        <h2>📝 Module 5: Knowledge Check</h2>
+        
+        <div class="quiz-question">
+            <p>Q1: You receive an email from <code>IT-Support@company-helpdesk.com</code> stating your password expires in 2 hours and provides a link to keep your current password. What should you do?</p>
+            A) Click the link quickly before the 2 hours run out.<br>
+            B) Reply to the email asking if it's real.<br>
+            C) Report the email to your actual IT department and do not click.
+            <details>
+                <summary>View Answer</summary>
+                <p><strong>Correct Answer: C</strong>. This email uses a false sense of urgency and a suspicious domain name.</p>
+            </details>
+        </div>
+
+        <div class="quiz-question">
+            <p>Q2: True or False: If a website has a padlock icon next to the URL (HTTPS), it is 100% safe to enter your credit card info.</p>
+            A) True<br>
+            B) False
+            <details>
+                <summary>View Answer</summary>
+                <p><strong>Correct Answer: B (False)</strong>. Scammers easily obtain SSL certificates to make their fake sites look secure.</p>
+            </details>
+        </div>
+
+        <div class="quiz-question">
+            <p>Q3: What is "Whaling"?</p>
+            A) Phishing emails sent randomly to thousands of people.<br>
+            B) A highly targeted phishing attack aimed at senior executives.<br>
+            C) Sending malicious text messages.
+            <details>
+                <summary>View Answer</summary>
+                <p><strong>Correct Answer: B</strong>. Whaling targets the "big fish" like CEOs or CFOs who have high-level access.</p>
+            </details>
+        </div>
+    </div>
+
+    <footer>
+        <p>Developed for the CodSoft Cyber Security Internship</p>
+    </footer>
+</div>
+
+</body>
+</html>
